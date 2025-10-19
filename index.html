@@ -3,79 +3,138 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Raghu R – Certificates</title>
+  <title>Raghu R – Portfolio & Certificates</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      color: #333;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
       padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
     }
     header {
-      background-color: #4CAF50;
+      background-color: #2c3e50;
       color: white;
-      padding: 30px 20px;
+      padding: 50px 20px;
       text-align: center;
     }
     header h1 {
       margin: 0;
-      font-size: 2em;
+      font-size: 2.8em;
+    }
+    header p {
+      font-size: 1.2em;
+      margin: 5px 0 20px;
+    }
+    .resume-btn {
+      display: inline-block;
+      padding: 12px 25px;
+      background-color: #27ae60;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+    .resume-btn:hover {
+      background-color: #2ecc71;
     }
     main {
-      max-width: 800px;
-      margin: 20px auto;
-      padding: 20px;
-      background-color: white;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 0 20px;
     }
-    h2 {
-      color: #4CAF50;
+    section {
+      background-color: white;
+      padding: 25px 20px;
+      margin-bottom: 25px;
+      border-radius: 10px;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+    }
+    section h2 {
+      color: #2980b9;
+      border-bottom: 3px solid #2980b9;
+      padding-bottom: 8px;
+      margin-bottom: 15px;
     }
     ul {
       list-style-type: none;
       padding-left: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
     }
     li {
-      background-color: #e8f5e9;
-      margin: 10px 0;
+      flex: 1 1 calc(50% - 15px);
+      background-color: #ecf0f1;
       padding: 15px;
-      border-radius: 5px;
+      border-radius: 8px;
+      transition: transform 0.3s, background-color 0.3s;
     }
     li a {
       text-decoration: none;
-      color: #333;
+      color: #2c3e50;
       font-weight: bold;
     }
-    li a:hover {
-      color: #4CAF50;
+    li:hover {
+      transform: translateY(-5px);
+      background-color: #d0e6f7;
     }
     footer {
       text-align: center;
-      margin: 20px 0;
+      padding: 25px 0;
       font-size: 0.9em;
       color: #555;
+    }
+    /* Mobile responsiveness */
+    @media (max-width: 600px) {
+      li {
+        flex: 1 1 100%;
+      }
+      header h1 {
+        font-size: 2em;
+      }
+      header p {
+        font-size: 1em;
+      }
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Raghu R – Certificates</h1>
-    <p>Verified Certifications & Internship Completion Certificates</p>
+    <h1>Raghu R</h1>
+    <p>Portfolio | Certifications | Projects</p>
+    <a href="resume.pdf" class="resume-btn" target="_blank">Download Resume</a>
   </header>
 
   <main>
-    <h2>Certifications & Courses</h2>
-    <ul>
-      <li><a href="certificate1.pdf" target="_blank">Wipro TalentNext – Java Full Stack Developer (2024)</a></li>
-      <li><a href="certificate2.pdf" target="_blank">UiPath Automation Developer (2024)</a></li>
-      <li><a href="certificate3.pdf" target="_blank">Google Cybersecurity Professional (2024)</a></li>
-      <li><a href="certificate4.pdf" target="_blank">C/C++ Programming – Infosys (2023)</a></li>
-      <li><a href="certificate5.pdf" target="_blank">Internship – C Programming (Destination Technology, 2022)</a></li>
-      <li><a href="certificate6.pdf" target="_blank">Internship – Python Programming (EZ Technologies, 2023)</a></li>
-      <li><a href="certificate7.pdf" target="_blank">Internship – RPA Automation (ISB Soft Technologies, 2024)</a></li>
-    </ul>
+    <section>
+      <h2>Certifications & Courses</h2>
+      <ul>
+        <li><a href="certificate1.pdf" target="_blank">Wipro TalentNext – Java Full Stack Developer (2024)</a></li>
+        <li><a href="certificate2.pdf" target="_blank">UiPath Automation Developer (2024)</a></li>
+        <li><a href="certificate3.pdf" target="_blank">Google Cybersecurity Professional (2024)</a></li>
+        <li><a href="certificate4.pdf" target="_blank">C/C++ Programming – Infosys (2023)</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Internship Certificates</h2>
+      <ul>
+        <li><a href="certificate5.pdf" target="_blank">C Programming Internship – Destination Technology (2022)</a></li>
+        <li><a href="certificate6.pdf" target="_blank">Python Programming Internship – EZ Technologies (2023)</a></li>
+        <li><a href="certificate7.pdf" target="_blank">RPA Automation Internship – ISB Soft Technologies (2024)</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <ul>
+        <li><a href="project1_link" target="_blank">Technical Club Portal – Web portal for quizzes & events (HTML, CSS, JS, Node.js)</a></li>
+        <li><a href="project2_link" target="_blank">Voice Recorder & Filter – Python DSP project with MySQL database</a></li>
+        <li><a href="project3_link" target="_blank">Automation Scripts – RPA bots for repetitive business tasks</a></li>
+      </ul>
+    </section>
   </main>
 
   <footer>
