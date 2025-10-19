@@ -1,90 +1,176 @@
- <!DOCTYPE html>
+ 
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Raghu R – Portfolio & Certificates</title>
+  <title>Raghu R | Projects & Certifications</title>
   <style>
-    body { font-family: 'Segoe UI', sans-serif; margin:0; padding:0; background:#f5f5f5; color:#333;}
-    header { background:#2c3e50; color:white; text-align:center; padding:50px 20px;}
-    header h1 { font-size:2.8em; margin:0; }
-    header p { margin:5px 0 20px; font-size:1.2em; }
-    .resume-btn { padding:12px 25px; background:#27ae60; color:white; text-decoration:none; border-radius:5px; font-weight:bold; transition:0.3s; }
-    .resume-btn:hover { background:#2ecc71; }
-    main { max-width:1000px; margin:30px auto; padding:0 20px; }
-    section { background:white; padding:25px 20px; margin-bottom:25px; border-radius:10px; box-shadow:0 3px 12px rgba(0,0,0,0.1);}
-    h2 { color:#2980b9; border-bottom:3px solid #2980b9; padding-bottom:8px; margin-bottom:15px; }
-    ul { list-style:none; padding:0; display:flex; flex-wrap:wrap; gap:15px; }
-    li { flex:1 1 calc(50% - 15px); background:#ecf0f1; padding:15px; border-radius:8px; transition:0.3s;}
-    li a { text-decoration:none; color:#2c3e50; font-weight:bold;}
-    li:hover { transform:translateY(-5px); background:#d0e6f7;}
-    footer { text-align:center; padding:25px 0; font-size:0.9em; color:#555;}
-    @media (max-width:600px) { li { flex:1 1 100%; } header h1 { font-size:2em; } header p { font-size:1em; } }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f6f8;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #004aad;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    h2 {
+      color: #004aad;
+      border-bottom: 2px solid #004aad;
+      padding-bottom: 5px;
+      margin-top: 40px;
+    }
+
+    .container {
+      width: 85%;
+      max-width: 900px;
+      margin: 40px auto;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 30px;
+    }
+
+    .card {
+      margin-bottom: 25px;
+      padding: 15px;
+      border-left: 5px solid #004aad;
+      background-color: #f9f9f9;
+      border-radius: 8px;
+    }
+
+    .card h3 {
+      margin-top: 0;
+    }
+
+    a.button {
+      display: inline-block;
+      text-decoration: none;
+      background-color: #004aad;
+      color: white;
+      padding: 8px 14px;
+      border-radius: 5px;
+      font-size: 0.9em;
+      margin-top: 8px;
+      transition: background-color 0.3s;
+    }
+
+    a.button:hover {
+      background-color: #003380;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+      background-color: #eee;
+      color: #333;
+      margin-top: 40px;
+    }
   </style>
 </head>
 <body>
+
   <header>
-    <h1>Raghu R</h1>
+    <h1>Raghavendra Rathod</h1>
     <p>Portfolio | Certifications | Projects</p>
-    <a href="resume.pdf" class="resume-btn" target="_blank">Download Resume</a>
   </header>
 
-  <main>
-    <section>
-      <h2>Certifications & Courses</h2>
-      <ul>
-        <li><a href="java_full_stack(wipro)cerf.pdf" target="_blank">Wipro TalentNext – Java Full Stack Developer (2024)</a></li>
-        <li><a href="RPA_Developer_Comp_Cert.pdf" target="_blank">UiPath Automation Developer (2024)</a></li>
-        <li><a href="GoogleCyberSecurity-cerf.pdf" target="_blank">Google Cybersecurity Professional (2024)</a></li>
-      </ul>
-    </section>
+  <div class="container">
 
-    <section>
-      <h2>Internship Certificates</h2>
-      <ul>
-        <li><a href="C-Intern_Cert0834.pdf" target="_blank">C Programming Internship – Destination Technology (2022)</a></li>
-        <li><a href="Python_cerf(EZ).pdf" target="_blank">Python Programming Internship – EZ Technologies (2023)</a></li>
-        <li><a href="RPA-Intern_cert-0849.pdf" target="_blank">RPA Automation Internship – ISB Soft Technologies (2024)</a></li>
-      </ul>
-    </section>
+    <h2>Certifications</h2>
 
-    <section>
-      <h2>Projects</h2>
-      <ul id="projects-list">
-        <li>Loading projects...</li>
-      </ul>
-    </section>
-  </main>
+    <div class="cert-card">
+      <h3>Google Cybersecurity Professional Certificate</h3>
+      <p><strong>Issued by:</strong> Google (Coursera) | <strong>Year:</strong> 2024</p>
+      <p>Gained practical knowledge in network security, threat analysis, and incident response with real-world cybersecurity tools.</p>
+      <li><a href="GoogleCyberSecurity-cerf.pdf" class="button" target="_blank">View Certificate</a></li>
+      
+    </div>
+
+    <div class="cert-card">
+      <h3>UiPath Automation Developer Certification</h3>
+      <p><strong>Issued by:</strong> UiPath Academy | <strong>Year:</strong> 2024</p>
+      <p>Learned to design and deploy process automation workflows using UiPath Studio.</p>
+      <li><a href="RPA_Developer_Comp_Cert.pdf"  class="button" target="_blank">View Certificate</a></li>
+    </div>
+
+    <div class="cert-card">
+      <h3>Wipro TalentNext – Java Full Stack Developer</h3>
+      <p><strong>Issued by:</strong> Wipro | <strong>Year:</strong> 2024</p>
+      <p>Completed full stack training in Java backend, web technologies, and databases.</p>
+      <li><a href="java_full_stack(wipro)cerf.pdf" class="button" target="_blank">View Certificate </a></li>
+      
+    </div>
+
+  </div>
+  <div class="container">
+
+    <h2>Internships</h2>
+
+    <div class="cert-card">
+      <h3>C Programming Internship</h3>
+      <p><strong>Issued by:</strong> Destinaion Technologies | <strong>Year:</strong> 2023</p>
+      <p>learned fundamentals of c programming through hand-on mini projects and debuggin tasks.</p>
+      <li><a href="C-Intern_Cert0834.pdf"  class="button" target="_blank">View Certificate</a></li>
+    </div>
+
+    <div class="cert-card">
+      <h3>Python Programming Internship</h3>
+      <p><strong>Issued by:</strong> EZ Technologies | <strong>Year:</strong> 2023</p>
+      <p>Developed Python projects and scripts as part of internship program.</p>
+      <li><a href="Python_cerf(EZ).pdf"  class="button" target="_blank">View Certificate</a></li>
+    </div>
+
+    <div class="cert-card">
+      <h3>RPA Automation Internship</h3>
+      <p><strong>Issued by:</strong> ISB Soft Technologies | <strong>Year:</strong> 2024</p>
+      <p>Worked on automation workflows using UiPath for real-world business scenarios.</p>
+      <li><a href="RPA-Intern_cert-0849.pdf"  class="button" target="_blank">View Certificate</a></li>
+    </div>
+
+  </div>
+  <div class="container">
+
+    <!-- PROJECTS SECTION -->
+    <h2>Projects</h2>
+
+    <div class="card">
+      <h3>🎓 Student Database Management System</h3>
+      <p><strong>Language:</strong> Java / SQL</p>
+      <p>A student database management system designed to efficiently organize and manage student-related data including personal details, academic records, and attendance. It serves as a centralized repository replacing manual records.</p>
+      <a href="YOUR_GITHUB_LINK_STUDENT_DB" class="button" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="card">
+      <h3>🚌 Bus Reservation System</h3>
+      <p><strong>Language:</strong> R Programming</p>
+      <p>This Bus Reservation System project allows users to manage bus details and passenger reservations. It supports displaying available buses, making seat reservations, and managing records using CSV files through a user-friendly menu interface.</p>
+      <a href="YOUR_GITHUB_LINK_BUS_RESERVATION" class="button" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="card">
+      <h3>💡 Technical Club Portal</h3>
+      <p><strong>Technologies:</strong> HTML, CSS, JavaScript, Node.js</p>
+      <p>The Technical Club Portal is a web-based platform that fosters learning and collaboration among tech enthusiasts. It offers quizzes, assessments, and adaptive learning tools to help users track progress and enhance understanding.</p>
+      <a href="YOUR_GITHUB_LINK_TECHNICAL_PORTAL" class="button" target="_blank">View on GitHub</a>
+    </div>
 
   <footer>
-    Contact: <a href="mailto:raghavendrarathod516@gmail.com">raghavendrarathod516@gmail.com</a>
+    © 2025 Raghavendra Rathod | All certificates are genuine and verified by issuing organizations.
   </footer>
 
-  <script>
-    const username = "Raghavendra125"; // Replace with your GitHub username
-    const projectsList = document.getElementById('projects-list');
-
-    fetch(https://api.github.com/users/${username}/repos?sort=updated)
-      .then(response => response.json())
-      .then(repos => {
-        projectsList.innerHTML = "";
-        repos.forEach(repo => {
-          // Only include repos that are not forks
-          if (!repo.fork) {
-            const li = document.createElement('li');
-            const a = document.createElement('a');
-            a.href = repo.html_url;
-            a.target = "_blank";
-            a.textContent = repo.name + " – " + (repo.description || "No description");
-            li.appendChild(a);
-            projectsList.appendChild(li);
-          }
-        });
-      })
-      .catch(err => {
-        projectsList.innerHTML = "<li>Unable to load projects.</li>";
-        console.error(err);
-      });
-  </script>
 </body>
 </html>
