@@ -21,21 +21,21 @@ This portfolio highlights:
 ### 🎓 Student Database Management System
 - *Tech Stack:* Java, SQL  
 - Centralized system for storing and managing student records (academic data, attendance, etc.)
-- [View on GitHub](https://github.com/yourusername/student-database-management)
+- [View on GitHub](https://github.com/Raghavendra125/Student_Database_Mgmt)
 
 ---
 
 ### 🚌 Bus Reservation System
 - *Tech Stack:* R Programming, CSV File Handling  
 - Command-line application to manage bus schedules and passenger reservations  
-- [View on GitHub](https://github.com/yourusername/bus-reservation-system)
+- [View on GitHub](https://github.com/Raghavendra125/Bus_Reservation_System)
 
 ---
 
 ### 💡 Technical Club Portal
 - *Tech Stack:* HTML, CSS, JavaScript, Node.js  
 - Web-based learning platform for quizzes, events, and assessments  
-- [View on GitHub](https://github.com/yourusername/technical-club-portal)
+- [View on GitHub](https://github.com/Raghavendra125/technical_club_portal)
 
 ---
 
@@ -50,7 +50,7 @@ This portfolio highlights:
 | Python Programming Internship | EZ Technologies | 2023 |
 | RPA Automation Internship | ISB Soft Technologies | 2024 |
 
-🔗 [View All Certificates Online](https://yourusername.github.io/certifications-portfolio)
+🔗 [View All Certificates Online](https://Raghavendra125.github.io/certifications-portfolio)
 
 ---
 
@@ -60,7 +60,7 @@ This portfolio highlights:
 - *Automation Tools:* UiPath  
 - *Databases:* SQL, MySQL  
 - *Other Areas:* Cybersecurity basics, Git, Linux  
-- *Soft Skills:* Team player, result-oriented, adaptable, eager learner  
+- *Soft Skills:* problem solving, team-oriented, adaptable, eager learner  
 
 ---
 
@@ -73,10 +73,10 @@ This repository contains:
 ---
 
 ## 📬 Contact
-*Raghu R*  
-📧 Email: your.email@example.com  
-🔗 LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)  
-🔗 GitHub: [github.com/yourusername](https://github.com/yourusername)
+*Raghavendra Rathod*  
+📧 Email: raghavendrarathod516@gmail.com.com  
+🔗 LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/raghavendra-rathod-534485299?) 
+🔗 GitHub: [github.com/yourusername](https://github.com/Raghavendra125)
 
 ---
 
